@@ -33,6 +33,9 @@ app.get("/work",function(req,res){
     res.render("list",{listTittle:"work List", newItem : workItems});
 });
 
+app.get("/about",function(req,res){
+    res.render("about");
+})
 
 
 app.listen(3000,function(){
